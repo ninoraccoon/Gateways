@@ -1,0 +1,8 @@
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\bin\Debug\netcoreapp3.1\Infraestructure.deps.json
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\bin\Debug\netcoreapp3.1\Infraestructure.dll
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\bin\Debug\netcoreapp3.1\Infraestructure.pdb
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\obj\Debug\netcoreapp3.1\Infraestructure.AssemblyInfoInputs.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\obj\Debug\netcoreapp3.1\Infraestructure.AssemblyInfo.cs
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\obj\Debug\netcoreapp3.1\Infraestructure.csproj.CoreCompileInputs.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\obj\Debug\netcoreapp3.1\Infraestructure.dll
+D:\Documents\source.hdd\otros\Mussala\Gateways\5.Infraestructure\Infraestructure\obj\Debug\netcoreapp3.1\Infraestructure.pdb

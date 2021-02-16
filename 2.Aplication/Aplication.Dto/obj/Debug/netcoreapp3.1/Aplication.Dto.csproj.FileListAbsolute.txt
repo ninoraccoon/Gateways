@@ -1,0 +1,9 @@
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\bin\Debug\netcoreapp3.1\Aplication.Dto.deps.json
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\bin\Debug\netcoreapp3.1\Aplication.Dto.dll
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\bin\Debug\netcoreapp3.1\Aplication.Dto.pdb
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\obj\Debug\netcoreapp3.1\Aplication.Dto.csprojAssemblyReference.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\obj\Debug\netcoreapp3.1\Aplication.Dto.AssemblyInfoInputs.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\obj\Debug\netcoreapp3.1\Aplication.Dto.AssemblyInfo.cs
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\obj\Debug\netcoreapp3.1\Aplication.Dto.csproj.CoreCompileInputs.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\obj\Debug\netcoreapp3.1\Aplication.Dto.dll
+D:\Documents\source.hdd\otros\Mussala\Gateways\2.Aplication\Aplication.Dto\obj\Debug\netcoreapp3.1\Aplication.Dto.pdb

@@ -1,0 +1,62 @@
+<h1 id="tableLabel">Gateways view </h1>
+
+<p>Gateways Administration</p>
+
+<p *ngIf="!Gateways"><em>Loading...</em></p>
+
+
+<button type="button" class="btn btn-primary float-right m-2" data-bs-toggle="modal" data-bs-target="#exampleModal"
+  (click)="addClick()"
+  data-backdrop="static" data-keyboard="false"
+>
+  Add Gw
+</button>
+
+
+<div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
+  <div class="modal-dialog modal-dialog-centered modal-xl " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">{{ModalTitle}}</h4>
+            <button type="button" class="close" aria-label="Close" (click)="closeClick()"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <app-add-edit-gateway (onSuggest)="closeClick()" [gw]="gw" *ngIf="activateAddEditGw"></app-add-edit-gateway>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" (click)="closeClick()" >Close</button>
+          </div>
+     </div>
+      </div>
+</div>
+
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="Gateways">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Serial</th>
+      <th>Ipv4</th>   
+      <th>Opt</th>    
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let Gateway of Gateways">
+      <td>{{ Gateway.id }}</td>
+      <td>{{ Gateway.serial }}</td>
+      <td>{{ Gateway.ipv4 }}</td>  
+      <td>
+        <button type="button" class="btn btn-light mr-1"
+        data-bs-toggle="modal" data-bs-target="#exampleModal"
+        (click)="editClick(Gateway)"
+        data-backdrop="static" data-keyboard="false">
+          Edit
+        </button>
+        <button type="button" class="btn btn-light mr-1"
+        (click)="deleteClick(Gateway)">
+          Delete
+        </button>
+      </td>    
+    </tr>
+  </tbody>
+</table>

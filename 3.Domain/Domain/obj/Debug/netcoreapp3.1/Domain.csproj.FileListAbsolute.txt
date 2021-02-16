@@ -1,0 +1,12 @@
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.json
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Documents\source.hdd\otros\Mussala\Gateways\3.Domain\Domain\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache

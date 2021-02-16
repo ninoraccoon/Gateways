@@ -1,0 +1,58 @@
+
+<button type="button" class="btn btn-primary float-right m-2" data-bs-toggle="modal" data-bs-target="#exampleModal"
+(click)="addClick()"
+data-backdrop="static" data-keyboard="false"
+>
+Add Ph
+</button>
+
+
+<div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
+<div class="modal-dialog modal-dialog-centered modal-xl " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">{{ModalTitle}}</h4>
+          <button type="button" class="close" aria-label="Close" (click)="closeClick()"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <app-add-edit-ph (onSuggest)="closeClick()" [gw]="gw" [ph]="ph" *ngIf="activateAddEditGw"></app-add-edit-ph>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" (click)="closeClick()" >Close</button>
+        </div>
+   </div>
+    </div>
+</div>
+
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="gw.peripheral && gw.peripheral.length>0">
+    <thead>
+      <tr>
+        <th>uid</th>
+        <th>vendor</th>
+        <th>creatioDate</th>   
+        <th>status</th>    
+      </tr>
+    </thead>
+    <tbody>
+     
+      <tr *ngFor="let ph of gw.peripheral">
+        <td>{{ ph.uid }}</td>
+        <td>{{ ph.vendor }}</td>
+        <td>{{ ph.creatioDate }}</td>  
+        <td>{{ ph.status }}</td> 
+        <td>
+          <button type="button" class="btn btn-light mr-1"
+          data-bs-toggle="modal" data-bs-target="#exampleModal"
+          (click)="editClick(ph)"
+          data-backdrop="static" data-keyboard="false">
+            Edit
+          </button>
+          <button type="button" class="btn btn-light mr-1"
+          (click)="deleteClick(ph)">          
+            Delete
+          </button>
+        </td>    
+      </tr>
+    </tbody>
+  </table>
