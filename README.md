@@ -1,5 +1,5 @@
 # Gateways
-Simple angular, net core excercise
+Simple angular, net core exercise
 
 Installation guide;
 1-Restore nugets, npm packages.
